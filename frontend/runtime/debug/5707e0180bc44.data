@@ -1,0 +1,511 @@
+a:8:{s:6:"config";a:5:{s:10:"phpVersion";s:5:"5.4.3";s:10:"yiiVersion";s:9:"2.0.2-dev";s:11:"application";a:4:{s:3:"yii";s:9:"2.0.2-dev";s:4:"name";s:14:"My Application";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:5:"5.4.3";s:6:"xdebug";b:1;s:3:"apc";b:0;s:8:"memcache";b:0;}s:10:"extensions";a:37:{s:22:"sheillendra/yii2-theme";a:3:{s:4:"name";s:22:"sheillendra/yii2-theme";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:18:"@sheillendra/theme";s:47:"C:\wamp\www\fimex\vendor/sheillendra/yii2-theme";}}s:24:"sheillendra/yii2-jeasyui";a:3:{s:4:"name";s:24:"sheillendra/yii2-jeasyui";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:20:"@sheillendra/jeasyui";s:49:"C:\wamp\www\fimex\vendor/sheillendra/yii2-jeasyui";}}s:25:"kartik-v/yii2-krajee-base";a:3:{s:4:"name";s:25:"kartik-v/yii2-krajee-base";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/base";s:50:"C:\wamp\www\fimex\vendor/kartik-v/yii2-krajee-base";}}s:31:"kartik-v/yii2-widget-activeform";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-activeform";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/form";s:56:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-activeform";}}s:26:"kartik-v/yii2-widget-affix";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-affix";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:13:"@kartik/affix";s:51:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-affix";}}s:26:"kartik-v/yii2-widget-alert";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-alert";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:13:"@kartik/alert";s:51:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-alert";}}s:31:"kartik-v/yii2-widget-colorinput";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-colorinput";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:13:"@kartik/color";s:56:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-colorinput";}}s:31:"kartik-v/yii2-widget-datepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-datepicker";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/date";s:56:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-datepicker";}}s:35:"kartik-v/yii2-widget-datetimepicker";a:3:{s:4:"name";s:35:"kartik-v/yii2-widget-datetimepicker";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:16:"@kartik/datetime";s:60:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-datetimepicker";}}s:28:"kartik-v/yii2-widget-depdrop";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-depdrop";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:15:"@kartik/depdrop";s:53:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-depdrop";}}s:30:"kartik-v/yii2-widget-fileinput";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-fileinput";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/file";s:55:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-fileinput";}}s:26:"kartik-v/yii2-widget-growl";a:3:{s:4:"name";s:26:"kartik-v/yii2-widget-growl";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:13:"@kartik/growl";s:51:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-growl";}}s:31:"kartik-v/yii2-widget-rangeinput";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-rangeinput";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:13:"@kartik/range";s:56:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-rangeinput";}}s:27:"kartik-v/yii2-widget-rating";a:3:{s:4:"name";s:27:"kartik-v/yii2-widget-rating";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:14:"@kartik/rating";s:52:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-rating";}}s:28:"kartik-v/yii2-widget-select2";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-select2";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:15:"@kartik/select2";s:53:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-select2";}}s:28:"kartik-v/yii2-widget-sidenav";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-sidenav";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:15:"@kartik/sidenav";s:53:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-sidenav";}}s:28:"kartik-v/yii2-widget-spinner";a:3:{s:4:"name";s:28:"kartik-v/yii2-widget-spinner";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:15:"@kartik/spinner";s:53:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-spinner";}}s:32:"kartik-v/yii2-widget-switchinput";a:3:{s:4:"name";s:32:"kartik-v/yii2-widget-switchinput";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:19:"@kartik/switchinput";s:57:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-switchinput";}}s:31:"kartik-v/yii2-widget-timepicker";a:3:{s:4:"name";s:31:"kartik-v/yii2-widget-timepicker";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/time";s:56:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-timepicker";}}s:30:"kartik-v/yii2-widget-touchspin";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-touchspin";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:17:"@kartik/touchspin";s:55:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-touchspin";}}s:30:"kartik-v/yii2-widget-typeahead";a:3:{s:4:"name";s:30:"kartik-v/yii2-widget-typeahead";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:17:"@kartik/typeahead";s:55:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widget-typeahead";}}s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:49:"C:\wamp\www\fimex\vendor/yiisoft/yii2-swiftmailer";}}s:24:"yiisoft/yii2-codeception";a:3:{s:4:"name";s:24:"yiisoft/yii2-codeception";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:16:"@yii/codeception";s:49:"C:\wamp\www\fimex\vendor/yiisoft/yii2-codeception";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:47:"C:\wamp\www\fimex\vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:10:"@yii/debug";s:43:"C:\wamp\www\fimex\vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:8:"@yii/gii";s:41:"C:\wamp\www\fimex\vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:10:"@yii/faker";s:43:"C:\wamp\www\fimex\vendor/yiisoft/yii2-faker";}}s:21:"kartik-v/yii2-widgets";a:3:{s:4:"name";s:21:"kartik-v/yii2-widgets";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:15:"@kartik/widgets";s:46:"C:\wamp\www\fimex\vendor/kartik-v/yii2-widgets";}}s:18:"kartik-v/yii2-grid";a:3:{s:4:"name";s:18:"kartik-v/yii2-grid";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/grid";s:43:"C:\wamp\www\fimex\vendor/kartik-v/yii2-grid";}}s:20:"kartik-v/yii2-tabs-x";a:3:{s:4:"name";s:20:"kartik-v/yii2-tabs-x";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:12:"@kartik/tabs";s:45:"C:\wamp\www\fimex\vendor/kartik-v/yii2-tabs-x";}}s:25:"kartik-v/yii2-datecontrol";a:3:{s:4:"name";s:25:"kartik-v/yii2-datecontrol";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:19:"@kartik/datecontrol";s:50:"C:\wamp\www\fimex\vendor/kartik-v/yii2-datecontrol";}}s:21:"kartik-v/yii2-helpers";a:3:{s:4:"name";s:21:"kartik-v/yii2-helpers";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:15:"@kartik/helpers";s:46:"C:\wamp\www\fimex\vendor/kartik-v/yii2-helpers";}}s:25:"kartik-v/yii2-detail-view";a:3:{s:4:"name";s:25:"kartik-v/yii2-detail-view";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:14:"@kartik/detail";s:50:"C:\wamp\www\fimex\vendor/kartik-v/yii2-detail-view";}}s:21:"kartik-v/yii2-builder";a:3:{s:4:"name";s:21:"kartik-v/yii2-builder";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:15:"@kartik/builder";s:46:"C:\wamp\www\fimex\vendor/kartik-v/yii2-builder";}}s:16:"yiisoft/yii2-jui";a:3:{s:4:"name";s:16:"yiisoft/yii2-jui";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:8:"@yii/jui";s:41:"C:\wamp\www\fimex\vendor/yiisoft/yii2-jui";}}s:19:"kartik-v/yii2-icons";a:3:{s:4:"name";s:19:"kartik-v/yii2-icons";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:13:"@kartik/icons";s:44:"C:\wamp\www\fimex\vendor/kartik-v/yii2-icons";}}s:18:"mdmsoft/yii2-admin";a:3:{s:4:"name";s:18:"mdmsoft/yii2-admin";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:10:"@mdm/admin";s:43:"C:\wamp\www\fimex\vendor/mdmsoft/yii2-admin";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:8:{s:4:"host";s:9:"localhost";s:10:"connection";s:10:"keep-alive";s:6:"accept";s:33:"application/json, text/javascript";s:10:"user-agent";s:115:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36";s:7:"referer";s:57:"http://localhost/fimex/programacion/semanal-moldeo-aceros";s:15:"accept-encoding";s:19:"gzip, deflate, sdch";s:15:"accept-language";s:24:"es-419,es;q=0.8,en;q=0.6";s:6:"cookie";s:313:"_csrf=392d1a68255ddb6d2ddc91105e9413b6add019653a60188e5afbca04956c8853s%3A32%3A%22rM5BCiI0n3fmiFJjYaRp4ZKdHleOsMWv%22%3B; _identity=e425b75b403dbba161a7aaf75be6791a193da743b305c6808a0f62387526a32fs%3A49%3A%22%5B1014%2C%22VqKnIEXvJi300PZQYwKsdI-ki2A4S0LA%22%2C2592000%5D%22%3B; PHPSESSID=1q3olf2cbi8eebmq33j4npl6t3";}s:15:"responseHeaders";a:5:{s:12:"X-Powered-By";s:9:"PHP/5.4.3";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";s:6:"Pragma";s:8:"no-cache";s:10:"Set-Cookie";s:210:"_identity=e425b75b403dbba161a7aaf75be6791a193da743b305c6808a0f62387526a32fs%3A49%3A%22%5B1014%2C%22VqKnIEXvJi300PZQYwKsdI-ki2A4S0LA%22%2C2592000%5D%22%3B; expires=Sun, 08-May-2016 16:45:12 GMT; path=/; httponly";}s:5:"route";s:25:"programacion/save-semanal";s:6:"action";s:64:"frontend\controllers\ProgramacionController::actionSaveSemanal()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:0:{}s:6:"SERVER";a:35:{s:15:"REDIRECT_STATUS";s:3:"200";s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:11:"HTTP_ACCEPT";s:33:"application/json, text/javascript";s:15:"HTTP_USER_AGENT";s:115:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36";s:12:"HTTP_REFERER";s:57:"http://localhost/fimex/programacion/semanal-moldeo-aceros";s:20:"HTTP_ACCEPT_ENCODING";s:19:"gzip, deflate, sdch";s:20:"HTTP_ACCEPT_LANGUAGE";s:24:"es-419,es;q=0.8,en;q=0.6";s:11:"HTTP_COOKIE";s:313:"_csrf=392d1a68255ddb6d2ddc91105e9413b6add019653a60188e5afbca04956c8853s%3A32%3A%22rM5BCiI0n3fmiFJjYaRp4ZKdHleOsMWv%22%3B; _identity=e425b75b403dbba161a7aaf75be6791a193da743b305c6808a0f62387526a32fs%3A49%3A%22%5B1014%2C%22VqKnIEXvJi300PZQYwKsdI-ki2A4S0LA%22%2C2592000%5D%22%3B; PHPSESSID=1q3olf2cbi8eebmq33j4npl6t3";s:4:"PATH";s:814:"C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\wamp\bin\php\php5.4.3\;C:\wamp\bin\apache\apache2.2.22\;C:\wamp\www\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Mono\bin;C:\mono\GtkSharp\2.12\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\ProgramData\ComposerSetup\bin;";s:10:"SystemRoot";s:10:"C:\WINDOWS";s:7:"COMSPEC";s:27:"C:\WINDOWS\system32\cmd.exe";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:6:"WINDIR";s:10:"C:\WINDOWS";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:31:"Apache/2.2.22 (Win32) PHP/5.4.3";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:3:"::1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:3:"::1";s:13:"DOCUMENT_ROOT";s:11:"C:/wamp/www";s:12:"SERVER_ADMIN";s:15:"admin@localhost";s:15:"SCRIPT_FILENAME";s:27:"C:/wamp/www/fimex/index.php";s:11:"REMOTE_PORT";s:5:"53762";s:21:"REDIRECT_QUERY_STRING";s:106:"Anio=2016&IdProceso=1&IdProgramacion=23988&Prioridad=0&Producto=A1D1-9118-010-37A-0&Programadas=&Semana=15";s:12:"REDIRECT_URL";s:32:"/fimex/programacion/save-semanal";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:106:"Anio=2016&IdProceso=1&IdProgramacion=23988&Prioridad=0&Producto=A1D1-9118-010-37A-0&Programadas=&Semana=15";s:11:"REQUEST_URI";s:139:"/fimex/programacion/save-semanal?Anio=2016&IdProceso=1&IdProgramacion=23988&Prioridad=0&Producto=A1D1-9118-010-37A-0&Programadas=&Semana=15";s:11:"SCRIPT_NAME";s:16:"/fimex/index.php";s:8:"PHP_SELF";s:16:"/fimex/index.php";s:18:"REQUEST_TIME_FLOAT";d:1460133911.9960000514984130859375;s:12:"REQUEST_TIME";i:1460133911;}s:3:"GET";a:7:{s:4:"Anio";s:4:"2016";s:9:"IdProceso";s:1:"1";s:14:"IdProgramacion";s:5:"23988";s:9:"Prioridad";s:1:"0";s:8:"Producto";s:19:"A1D1-9118-010-37A-0";s:11:"Programadas";s:0:"";s:6:"Semana";s:2:"15";}s:4:"POST";a:0:{}s:6:"COOKIE";a:3:{s:5:"_csrf";s:104:"392d1a68255ddb6d2ddc91105e9413b6add019653a60188e5afbca04956c8853s:32:"rM5BCiI0n3fmiFJjYaRp4ZKdHleOsMWv";";s:9:"_identity";s:121:"e425b75b403dbba161a7aaf75be6791a193da743b305c6808a0f62387526a32fs:49:"[1014,"VqKnIEXvJi300PZQYwKsdI-ki2A4S0LA",2592000]";";s:9:"PHPSESSID";s:26:"1q3olf2cbi8eebmq33j4npl6t3";}s:5:"FILES";a:0:{}s:7:"SESSION";a:3:{s:7:"__flash";a:0:{}s:4:"__id";i:1014;s:4:"area";a:4:{s:6:"IdArea";i:2;s:13:"Identificador";s:1:"A";s:11:"Descripcion";s:5:"Acero";s:14:"AgruparPedidos";i:1;}}}s:3:"log";a:1:{s:8:"messages";a:25:{i:0;a:5:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1460133912.03322601318359375;i:4;a:0:{}}i:1;a:5:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1460133912.0333321094512939453125;i:4;a:0:{}}i:2;a:5:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1460133912.0472218990325927734375;i:4;a:0:{}}i:3;a:5:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1460133912.0509951114654541015625;i:4;a:0:{}}i:4;a:5:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1460133912.0520288944244384765625;i:4;a:0:{}}i:5;a:5:{i:0;s:55:"No matching URL rules. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1460133912.055912017822265625;i:4;a:0:{}}i:6;a:5:{i:0;s:44:"Route requested: 'programacion/save-semanal'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1460133912.0559749603271484375;i:4;a:0:{}}i:7;a:5:{i:0;s:39:"Route to run: programacion/save-semanal";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1460133912.06352901458740234375;i:4;a:0:{}}i:8;a:5:{i:0;s:80:"Running action: frontend\controllers\ProgramacionController::actionSaveSemanal()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1460133912.0649020671844482421875;i:4;a:0:{}}i:9;a:5:{i:0;s:59:"EXECUTE p_SetProgramacionSemana 1,23988,2016,15,0,NULL,NULL";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1460133912.0773410797119140625;i:4;a:2:{i:0;a:5:{s:4:"file";s:63:"C:\wamp\www\fimex\frontend\models\programacion\Programacion.php";s:4:"line";i:247;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:818;s:8:"function";s:22:"setProgramacionSemanal";s:5:"class";s:41:"frontend\models\programacion\Programacion";s:4:"type";s:2:"->";}}}i:10;a:5:{i:0;s:75:"Opening DB connection: sqlsrv:Server=192.168.0.18;Database=FIMEX_Produccion";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1460133912.0774440765380859375;i:4;a:2:{i:0;a:5:{s:4:"file";s:63:"C:\wamp\www\fimex\frontend\models\programacion\Programacion.php";s:4:"line";i:247;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:818;s:8:"function";s:22:"setProgramacionSemanal";s:5:"class";s:41:"frontend\models\programacion\Programacion";s:4:"type";s:2:"->";}}}i:15;a:5:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1460133912.2866039276123046875;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:16;a:5:{i:0;s:36:"SELECT * FROM [user] WHERE [id]=1014";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3015730381011962890625;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:19;a:5:{i:0;s:384:"SELECT
+    [kcu].[column_name] AS [field_name]
+FROM [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu]
+LEFT JOIN [INFORMATION_SCHEMA].[TABLE_CONSTRAINTS] AS [tc] ON
+    [kcu].[table_name] = [tc].[table_name] AND
+    [kcu].[constraint_name] = [tc].[constraint_name]
+WHERE
+    [tc].[constraint_type] = 'PRIMARY KEY' AND
+    [kcu].[table_name] = 'user' AND
+    [kcu].[table_schema] = 'dbo'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.305490016937255859375;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:22;a:5:{i:0;s:723:"SELECT
+    [t1].[column_name], [t1].[is_nullable], [t1].[data_type], [t1].[column_default],
+    COLUMNPROPERTY(OBJECT_ID([t1].[table_schema] + '.' + [t1].[table_name]), [t1].[column_name], 'IsIdentity') AS is_identity,
+    CONVERT(VARCHAR, [t2].[value]) AS comment
+FROM [INFORMATION_SCHEMA].[COLUMNS] AS [t1]
+LEFT OUTER JOIN [sys].[extended_properties] AS [t2] ON
+    [t2].[minor_id] = COLUMNPROPERTY(OBJECT_ID([t1].[TABLE_SCHEMA] + '.' + [t1].[TABLE_NAME]), [t1].[COLUMN_NAME], 'ColumnID') AND
+    OBJECT_NAME([t2].[major_id]) = [t1].[table_name] AND
+    [t2].[class] = 1 AND
+    [t2].[class_desc] = 'OBJECT_OR_COLUMN' AND
+    [t2].[name] = 'MS_Description'
+WHERE [t1].[table_name] = 'user' AND [t1].[table_schema] = 'dbo'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3097980022430419921875;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:25;a:5:{i:0;s:781:"SELECT
+    [kcu1].[column_name] AS [fk_column_name],
+    [kcu2].[table_name] AS [uq_table_name],
+    [kcu2].[column_name] AS [uq_column_name]
+FROM [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS] AS [rc]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu1] ON
+    [kcu1].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu1].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu1].[constraint_name] = [rc].[constraint_name]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu2] ON
+    [kcu2].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu2].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu2].[constraint_name] = [rc].[unique_constraint_name] AND
+    [kcu2].[ordinal_position] = [kcu1].[ordinal_position]
+WHERE [kcu1].[table_name] = 'user'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3232700824737548828125;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:28;a:5:{i:0;s:47:"SELECT * FROM [Empleados] WHERE [IdEmpleado]=56";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.395390033721923828125;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:31;a:5:{i:0;s:389:"SELECT
+    [kcu].[column_name] AS [field_name]
+FROM [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu]
+LEFT JOIN [INFORMATION_SCHEMA].[TABLE_CONSTRAINTS] AS [tc] ON
+    [kcu].[table_name] = [tc].[table_name] AND
+    [kcu].[constraint_name] = [tc].[constraint_name]
+WHERE
+    [tc].[constraint_type] = 'PRIMARY KEY' AND
+    [kcu].[table_name] = 'Empleados' AND
+    [kcu].[table_schema] = 'dbo'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.397039890289306640625;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:34;a:5:{i:0;s:728:"SELECT
+    [t1].[column_name], [t1].[is_nullable], [t1].[data_type], [t1].[column_default],
+    COLUMNPROPERTY(OBJECT_ID([t1].[table_schema] + '.' + [t1].[table_name]), [t1].[column_name], 'IsIdentity') AS is_identity,
+    CONVERT(VARCHAR, [t2].[value]) AS comment
+FROM [INFORMATION_SCHEMA].[COLUMNS] AS [t1]
+LEFT OUTER JOIN [sys].[extended_properties] AS [t2] ON
+    [t2].[minor_id] = COLUMNPROPERTY(OBJECT_ID([t1].[TABLE_SCHEMA] + '.' + [t1].[TABLE_NAME]), [t1].[COLUMN_NAME], 'ColumnID') AND
+    OBJECT_NAME([t2].[major_id]) = [t1].[table_name] AND
+    [t2].[class] = 1 AND
+    [t2].[class_desc] = 'OBJECT_OR_COLUMN' AND
+    [t2].[name] = 'MS_Description'
+WHERE [t1].[table_name] = 'Empleados' AND [t1].[table_schema] = 'dbo'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.401070117950439453125;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:37;a:5:{i:0;s:786:"SELECT
+    [kcu1].[column_name] AS [fk_column_name],
+    [kcu2].[table_name] AS [uq_table_name],
+    [kcu2].[column_name] AS [uq_column_name]
+FROM [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS] AS [rc]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu1] ON
+    [kcu1].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu1].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu1].[constraint_name] = [rc].[constraint_name]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu2] ON
+    [kcu2].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu2].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu2].[constraint_name] = [rc].[unique_constraint_name] AND
+    [kcu2].[ordinal_position] = [kcu1].[ordinal_position]
+WHERE [kcu1].[table_name] = 'Empleados'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.4108579158782958984375;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:40;a:5:{i:0;s:388:"SELECT
+    [kcu].[column_name] AS [field_name]
+FROM [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu]
+LEFT JOIN [INFORMATION_SCHEMA].[TABLE_CONSTRAINTS] AS [tc] ON
+    [kcu].[table_name] = [tc].[table_name] AND
+    [kcu].[constraint_name] = [tc].[constraint_name]
+WHERE
+    [tc].[constraint_type] = 'PRIMARY KEY' AND
+    [kcu].[table_name] = 'Bitacora' AND
+    [kcu].[table_schema] = 'dbo'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.5487110614776611328125;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:838;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:43;a:5:{i:0;s:727:"SELECT
+    [t1].[column_name], [t1].[is_nullable], [t1].[data_type], [t1].[column_default],
+    COLUMNPROPERTY(OBJECT_ID([t1].[table_schema] + '.' + [t1].[table_name]), [t1].[column_name], 'IsIdentity') AS is_identity,
+    CONVERT(VARCHAR, [t2].[value]) AS comment
+FROM [INFORMATION_SCHEMA].[COLUMNS] AS [t1]
+LEFT OUTER JOIN [sys].[extended_properties] AS [t2] ON
+    [t2].[minor_id] = COLUMNPROPERTY(OBJECT_ID([t1].[TABLE_SCHEMA] + '.' + [t1].[TABLE_NAME]), [t1].[COLUMN_NAME], 'ColumnID') AND
+    OBJECT_NAME([t2].[major_id]) = [t1].[table_name] AND
+    [t2].[class] = 1 AND
+    [t2].[class_desc] = 'OBJECT_OR_COLUMN' AND
+    [t2].[name] = 'MS_Description'
+WHERE [t1].[table_name] = 'Bitacora' AND [t1].[table_schema] = 'dbo'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.5526869297027587890625;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:838;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:46;a:5:{i:0;s:785:"SELECT
+    [kcu1].[column_name] AS [fk_column_name],
+    [kcu2].[table_name] AS [uq_table_name],
+    [kcu2].[column_name] AS [uq_column_name]
+FROM [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS] AS [rc]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu1] ON
+    [kcu1].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu1].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu1].[constraint_name] = [rc].[constraint_name]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu2] ON
+    [kcu2].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu2].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu2].[constraint_name] = [rc].[unique_constraint_name] AND
+    [kcu2].[ordinal_position] = [kcu1].[ordinal_position]
+WHERE [kcu1].[table_name] = 'Bitacora'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.5592849254608154296875;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:838;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:49;a:5:{i:0;s:263:"INSERT INTO [Bitacora] ([Descripcion], [Tabla], [Campo], [ValorNuevo], [ValorAnterior], [IP], [IdUsuario]) VALUES ('Programacion Actualizada Producto: A1D1-9118-010-37A-0 Año: 2016, Semana: 15', 'ProgramacionSemanal', 'Programadas', 'NULL', '', '::1', 'amolina')";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1460133912.6627509593963623046875;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:839;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:52;a:5:{i:0;s:258:"INSERT INTO [Bitacora] ([Descripcion], [Tabla], [Campo], [ValorNuevo], [ValorAnterior], [IP], [IdUsuario]) VALUES ('Programacion Actualizada Producto: A1D1-9118-010-37A-0 Año: 2016, Semana: 15', 'ProgramacionSemanal', 'Prioridad', '0', '', '::1', 'amolina')";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1460133912.708425998687744140625;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:839;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:820;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}}}s:9:"profiling";a:3:{s:6:"memory";i:5635408;s:4:"time";d:0.74114704132080078125;s:8:"messages";a:30:{i:11;a:5:{i:0;s:75:"Opening DB connection: sqlsrv:Server=192.168.0.18;Database=FIMEX_Produccion";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1460133912.077518939971923828125;i:4;a:2:{i:0;a:5:{s:4:"file";s:63:"C:\wamp\www\fimex\frontend\models\programacion\Programacion.php";s:4:"line";i:247;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:818;s:8:"function";s:22:"setProgramacionSemanal";s:5:"class";s:41:"frontend\models\programacion\Programacion";s:4:"type";s:2:"->";}}}i:12;a:5:{i:0;s:75:"Opening DB connection: sqlsrv:Server=192.168.0.18;Database=FIMEX_Produccion";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1460133912.0872249603271484375;i:4;a:2:{i:0;a:5:{s:4:"file";s:63:"C:\wamp\www\fimex\frontend\models\programacion\Programacion.php";s:4:"line";i:247;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:818;s:8:"function";s:22:"setProgramacionSemanal";s:5:"class";s:41:"frontend\models\programacion\Programacion";s:4:"type";s:2:"->";}}}i:13;a:5:{i:0;s:59:"EXECUTE p_SetProgramacionSemana 1,23988,2016,15,0,NULL,NULL";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1460133912.087399959564208984375;i:4;a:2:{i:0;a:5:{s:4:"file";s:63:"C:\wamp\www\fimex\frontend\models\programacion\Programacion.php";s:4:"line";i:247;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:818;s:8:"function";s:22:"setProgramacionSemanal";s:5:"class";s:41:"frontend\models\programacion\Programacion";s:4:"type";s:2:"->";}}}i:14;a:5:{i:0;s:59:"EXECUTE p_SetProgramacionSemana 1,23988,2016,15,0,NULL,NULL";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1460133912.279696941375732421875;i:4;a:2:{i:0;a:5:{s:4:"file";s:63:"C:\wamp\www\fimex\frontend\models\programacion\Programacion.php";s:4:"line";i:247;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:818;s:8:"function";s:22:"setProgramacionSemanal";s:5:"class";s:41:"frontend\models\programacion\Programacion";s:4:"type";s:2:"->";}}}i:17;a:5:{i:0;s:36:"SELECT * FROM [user] WHERE [id]=1014";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3018300533294677734375;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:18;a:5:{i:0;s:36:"SELECT * FROM [user] WHERE [id]=1014";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.302628040313720703125;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:20;a:5:{i:0;s:384:"SELECT
+    [kcu].[column_name] AS [field_name]
+FROM [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu]
+LEFT JOIN [INFORMATION_SCHEMA].[TABLE_CONSTRAINTS] AS [tc] ON
+    [kcu].[table_name] = [tc].[table_name] AND
+    [kcu].[constraint_name] = [tc].[constraint_name]
+WHERE
+    [tc].[constraint_type] = 'PRIMARY KEY' AND
+    [kcu].[table_name] = 'user' AND
+    [kcu].[table_schema] = 'dbo'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3057210445404052734375;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:21;a:5:{i:0;s:384:"SELECT
+    [kcu].[column_name] AS [field_name]
+FROM [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu]
+LEFT JOIN [INFORMATION_SCHEMA].[TABLE_CONSTRAINTS] AS [tc] ON
+    [kcu].[table_name] = [tc].[table_name] AND
+    [kcu].[constraint_name] = [tc].[constraint_name]
+WHERE
+    [tc].[constraint_type] = 'PRIMARY KEY' AND
+    [kcu].[table_name] = 'user' AND
+    [kcu].[table_schema] = 'dbo'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3091399669647216796875;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:23;a:5:{i:0;s:723:"SELECT
+    [t1].[column_name], [t1].[is_nullable], [t1].[data_type], [t1].[column_default],
+    COLUMNPROPERTY(OBJECT_ID([t1].[table_schema] + '.' + [t1].[table_name]), [t1].[column_name], 'IsIdentity') AS is_identity,
+    CONVERT(VARCHAR, [t2].[value]) AS comment
+FROM [INFORMATION_SCHEMA].[COLUMNS] AS [t1]
+LEFT OUTER JOIN [sys].[extended_properties] AS [t2] ON
+    [t2].[minor_id] = COLUMNPROPERTY(OBJECT_ID([t1].[TABLE_SCHEMA] + '.' + [t1].[TABLE_NAME]), [t1].[COLUMN_NAME], 'ColumnID') AND
+    OBJECT_NAME([t2].[major_id]) = [t1].[table_name] AND
+    [t2].[class] = 1 AND
+    [t2].[class_desc] = 'OBJECT_OR_COLUMN' AND
+    [t2].[name] = 'MS_Description'
+WHERE [t1].[table_name] = 'user' AND [t1].[table_schema] = 'dbo'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3100140094757080078125;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:24;a:5:{i:0;s:723:"SELECT
+    [t1].[column_name], [t1].[is_nullable], [t1].[data_type], [t1].[column_default],
+    COLUMNPROPERTY(OBJECT_ID([t1].[table_schema] + '.' + [t1].[table_name]), [t1].[column_name], 'IsIdentity') AS is_identity,
+    CONVERT(VARCHAR, [t2].[value]) AS comment
+FROM [INFORMATION_SCHEMA].[COLUMNS] AS [t1]
+LEFT OUTER JOIN [sys].[extended_properties] AS [t2] ON
+    [t2].[minor_id] = COLUMNPROPERTY(OBJECT_ID([t1].[TABLE_SCHEMA] + '.' + [t1].[TABLE_NAME]), [t1].[COLUMN_NAME], 'ColumnID') AND
+    OBJECT_NAME([t2].[major_id]) = [t1].[table_name] AND
+    [t2].[class] = 1 AND
+    [t2].[class_desc] = 'OBJECT_OR_COLUMN' AND
+    [t2].[name] = 'MS_Description'
+WHERE [t1].[table_name] = 'user' AND [t1].[table_schema] = 'dbo'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3192050457000732421875;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:781:"SELECT
+    [kcu1].[column_name] AS [fk_column_name],
+    [kcu2].[table_name] AS [uq_table_name],
+    [kcu2].[column_name] AS [uq_column_name]
+FROM [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS] AS [rc]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu1] ON
+    [kcu1].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu1].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu1].[constraint_name] = [rc].[constraint_name]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu2] ON
+    [kcu2].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu2].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu2].[constraint_name] = [rc].[unique_constraint_name] AND
+    [kcu2].[ordinal_position] = [kcu1].[ordinal_position]
+WHERE [kcu1].[table_name] = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.323565959930419921875;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:27;a:5:{i:0;s:781:"SELECT
+    [kcu1].[column_name] AS [fk_column_name],
+    [kcu2].[table_name] AS [uq_table_name],
+    [kcu2].[column_name] AS [uq_column_name]
+FROM [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS] AS [rc]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu1] ON
+    [kcu1].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu1].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu1].[constraint_name] = [rc].[constraint_name]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu2] ON
+    [kcu2].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu2].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu2].[constraint_name] = [rc].[unique_constraint_name] AND
+    [kcu2].[ordinal_position] = [kcu1].[ordinal_position]
+WHERE [kcu1].[table_name] = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.392466068267822265625;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:47:"SELECT * FROM [Empleados] WHERE [IdEmpleado]=56";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3956120014190673828125;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:30;a:5:{i:0;s:47:"SELECT * FROM [Empleados] WHERE [IdEmpleado]=56";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3963069915771484375;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:32;a:5:{i:0;s:389:"SELECT
+    [kcu].[column_name] AS [field_name]
+FROM [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu]
+LEFT JOIN [INFORMATION_SCHEMA].[TABLE_CONSTRAINTS] AS [tc] ON
+    [kcu].[table_name] = [tc].[table_name] AND
+    [kcu].[constraint_name] = [tc].[constraint_name]
+WHERE
+    [tc].[constraint_type] = 'PRIMARY KEY' AND
+    [kcu].[table_name] = 'Empleados' AND
+    [kcu].[table_schema] = 'dbo'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3972361087799072265625;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:33;a:5:{i:0;s:389:"SELECT
+    [kcu].[column_name] AS [field_name]
+FROM [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu]
+LEFT JOIN [INFORMATION_SCHEMA].[TABLE_CONSTRAINTS] AS [tc] ON
+    [kcu].[table_name] = [tc].[table_name] AND
+    [kcu].[constraint_name] = [tc].[constraint_name]
+WHERE
+    [tc].[constraint_type] = 'PRIMARY KEY' AND
+    [kcu].[table_name] = 'Empleados' AND
+    [kcu].[table_schema] = 'dbo'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.400516033172607421875;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:35;a:5:{i:0;s:728:"SELECT
+    [t1].[column_name], [t1].[is_nullable], [t1].[data_type], [t1].[column_default],
+    COLUMNPROPERTY(OBJECT_ID([t1].[table_schema] + '.' + [t1].[table_name]), [t1].[column_name], 'IsIdentity') AS is_identity,
+    CONVERT(VARCHAR, [t2].[value]) AS comment
+FROM [INFORMATION_SCHEMA].[COLUMNS] AS [t1]
+LEFT OUTER JOIN [sys].[extended_properties] AS [t2] ON
+    [t2].[minor_id] = COLUMNPROPERTY(OBJECT_ID([t1].[TABLE_SCHEMA] + '.' + [t1].[TABLE_NAME]), [t1].[COLUMN_NAME], 'ColumnID') AND
+    OBJECT_NAME([t2].[major_id]) = [t1].[table_name] AND
+    [t2].[class] = 1 AND
+    [t2].[class_desc] = 'OBJECT_OR_COLUMN' AND
+    [t2].[name] = 'MS_Description'
+WHERE [t1].[table_name] = 'Empleados' AND [t1].[table_schema] = 'dbo'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.401257991790771484375;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:36;a:5:{i:0;s:728:"SELECT
+    [t1].[column_name], [t1].[is_nullable], [t1].[data_type], [t1].[column_default],
+    COLUMNPROPERTY(OBJECT_ID([t1].[table_schema] + '.' + [t1].[table_name]), [t1].[column_name], 'IsIdentity') AS is_identity,
+    CONVERT(VARCHAR, [t2].[value]) AS comment
+FROM [INFORMATION_SCHEMA].[COLUMNS] AS [t1]
+LEFT OUTER JOIN [sys].[extended_properties] AS [t2] ON
+    [t2].[minor_id] = COLUMNPROPERTY(OBJECT_ID([t1].[TABLE_SCHEMA] + '.' + [t1].[TABLE_NAME]), [t1].[COLUMN_NAME], 'ColumnID') AND
+    OBJECT_NAME([t2].[major_id]) = [t1].[table_name] AND
+    [t2].[class] = 1 AND
+    [t2].[class_desc] = 'OBJECT_OR_COLUMN' AND
+    [t2].[name] = 'MS_Description'
+WHERE [t1].[table_name] = 'Empleados' AND [t1].[table_schema] = 'dbo'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.408070087432861328125;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:38;a:5:{i:0;s:786:"SELECT
+    [kcu1].[column_name] AS [fk_column_name],
+    [kcu2].[table_name] AS [uq_table_name],
+    [kcu2].[column_name] AS [uq_column_name]
+FROM [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS] AS [rc]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu1] ON
+    [kcu1].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu1].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu1].[constraint_name] = [rc].[constraint_name]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu2] ON
+    [kcu2].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu2].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu2].[constraint_name] = [rc].[unique_constraint_name] AND
+    [kcu2].[ordinal_position] = [kcu1].[ordinal_position]
+WHERE [kcu1].[table_name] = 'Empleados'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.41117095947265625;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:39;a:5:{i:0;s:786:"SELECT
+    [kcu1].[column_name] AS [fk_column_name],
+    [kcu2].[table_name] AS [uq_table_name],
+    [kcu2].[column_name] AS [uq_column_name]
+FROM [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS] AS [rc]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu1] ON
+    [kcu1].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu1].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu1].[constraint_name] = [rc].[constraint_name]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu2] ON
+    [kcu2].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu2].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu2].[constraint_name] = [rc].[unique_constraint_name] AND
+    [kcu2].[ordinal_position] = [kcu1].[ordinal_position]
+WHERE [kcu1].[table_name] = 'Empleados'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.5237720012664794921875;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:41;a:5:{i:0;s:388:"SELECT
+    [kcu].[column_name] AS [field_name]
+FROM [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu]
+LEFT JOIN [INFORMATION_SCHEMA].[TABLE_CONSTRAINTS] AS [tc] ON
+    [kcu].[table_name] = [tc].[table_name] AND
+    [kcu].[constraint_name] = [tc].[constraint_name]
+WHERE
+    [tc].[constraint_type] = 'PRIMARY KEY' AND
+    [kcu].[table_name] = 'Bitacora' AND
+    [kcu].[table_schema] = 'dbo'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.548954010009765625;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:838;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:42;a:5:{i:0;s:388:"SELECT
+    [kcu].[column_name] AS [field_name]
+FROM [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu]
+LEFT JOIN [INFORMATION_SCHEMA].[TABLE_CONSTRAINTS] AS [tc] ON
+    [kcu].[table_name] = [tc].[table_name] AND
+    [kcu].[constraint_name] = [tc].[constraint_name]
+WHERE
+    [tc].[constraint_type] = 'PRIMARY KEY' AND
+    [kcu].[table_name] = 'Bitacora' AND
+    [kcu].[table_schema] = 'dbo'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.5521519184112548828125;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:838;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:44;a:5:{i:0;s:727:"SELECT
+    [t1].[column_name], [t1].[is_nullable], [t1].[data_type], [t1].[column_default],
+    COLUMNPROPERTY(OBJECT_ID([t1].[table_schema] + '.' + [t1].[table_name]), [t1].[column_name], 'IsIdentity') AS is_identity,
+    CONVERT(VARCHAR, [t2].[value]) AS comment
+FROM [INFORMATION_SCHEMA].[COLUMNS] AS [t1]
+LEFT OUTER JOIN [sys].[extended_properties] AS [t2] ON
+    [t2].[minor_id] = COLUMNPROPERTY(OBJECT_ID([t1].[TABLE_SCHEMA] + '.' + [t1].[TABLE_NAME]), [t1].[COLUMN_NAME], 'ColumnID') AND
+    OBJECT_NAME([t2].[major_id]) = [t1].[table_name] AND
+    [t2].[class] = 1 AND
+    [t2].[class_desc] = 'OBJECT_OR_COLUMN' AND
+    [t2].[name] = 'MS_Description'
+WHERE [t1].[table_name] = 'Bitacora' AND [t1].[table_schema] = 'dbo'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.5528481006622314453125;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:838;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:45;a:5:{i:0;s:727:"SELECT
+    [t1].[column_name], [t1].[is_nullable], [t1].[data_type], [t1].[column_default],
+    COLUMNPROPERTY(OBJECT_ID([t1].[table_schema] + '.' + [t1].[table_name]), [t1].[column_name], 'IsIdentity') AS is_identity,
+    CONVERT(VARCHAR, [t2].[value]) AS comment
+FROM [INFORMATION_SCHEMA].[COLUMNS] AS [t1]
+LEFT OUTER JOIN [sys].[extended_properties] AS [t2] ON
+    [t2].[minor_id] = COLUMNPROPERTY(OBJECT_ID([t1].[TABLE_SCHEMA] + '.' + [t1].[TABLE_NAME]), [t1].[COLUMN_NAME], 'ColumnID') AND
+    OBJECT_NAME([t2].[major_id]) = [t1].[table_name] AND
+    [t2].[class] = 1 AND
+    [t2].[class_desc] = 'OBJECT_OR_COLUMN' AND
+    [t2].[name] = 'MS_Description'
+WHERE [t1].[table_name] = 'Bitacora' AND [t1].[table_schema] = 'dbo'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.55786800384521484375;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:838;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:47;a:5:{i:0;s:785:"SELECT
+    [kcu1].[column_name] AS [fk_column_name],
+    [kcu2].[table_name] AS [uq_table_name],
+    [kcu2].[column_name] AS [uq_column_name]
+FROM [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS] AS [rc]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu1] ON
+    [kcu1].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu1].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu1].[constraint_name] = [rc].[constraint_name]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu2] ON
+    [kcu2].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu2].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu2].[constraint_name] = [rc].[unique_constraint_name] AND
+    [kcu2].[ordinal_position] = [kcu1].[ordinal_position]
+WHERE [kcu1].[table_name] = 'Bitacora'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.5594980716705322265625;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:838;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:48;a:5:{i:0;s:785:"SELECT
+    [kcu1].[column_name] AS [fk_column_name],
+    [kcu2].[table_name] AS [uq_table_name],
+    [kcu2].[column_name] AS [uq_column_name]
+FROM [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS] AS [rc]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu1] ON
+    [kcu1].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu1].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu1].[constraint_name] = [rc].[constraint_name]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu2] ON
+    [kcu2].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu2].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu2].[constraint_name] = [rc].[unique_constraint_name] AND
+    [kcu2].[ordinal_position] = [kcu1].[ordinal_position]
+WHERE [kcu1].[table_name] = 'Bitacora'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.6601619720458984375;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:838;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:50;a:5:{i:0;s:263:"INSERT INTO [Bitacora] ([Descripcion], [Tabla], [Campo], [ValorNuevo], [ValorAnterior], [IP], [IdUsuario]) VALUES ('Programacion Actualizada Producto: A1D1-9118-010-37A-0 Año: 2016, Semana: 15', 'ProgramacionSemanal', 'Programadas', 'NULL', '', '::1', 'amolina')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1460133912.6629130840301513671875;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:839;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:51;a:5:{i:0;s:263:"INSERT INTO [Bitacora] ([Descripcion], [Tabla], [Campo], [ValorNuevo], [ValorAnterior], [IP], [IdUsuario]) VALUES ('Programacion Actualizada Producto: A1D1-9118-010-37A-0 Año: 2016, Semana: 15', 'ProgramacionSemanal', 'Programadas', 'NULL', '', '::1', 'amolina')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1460133912.7030150890350341796875;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:839;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:53;a:5:{i:0;s:258:"INSERT INTO [Bitacora] ([Descripcion], [Tabla], [Campo], [ValorNuevo], [ValorAnterior], [IP], [IdUsuario]) VALUES ('Programacion Actualizada Producto: A1D1-9118-010-37A-0 Año: 2016, Semana: 15', 'ProgramacionSemanal', 'Prioridad', '0', '', '::1', 'amolina')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1460133912.7086849212646484375;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:839;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:820;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:54;a:5:{i:0;s:258:"INSERT INTO [Bitacora] ([Descripcion], [Tabla], [Campo], [ValorNuevo], [ValorAnterior], [IP], [IdUsuario]) VALUES ('Programacion Actualizada Producto: A1D1-9118-010-37A-0 Año: 2016, Semana: 15', 'ProgramacionSemanal', 'Prioridad', '0', '', '::1', 'amolina')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1460133912.7373011112213134765625;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:839;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:820;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}}}s:2:"db";a:1:{s:8:"messages";a:28:{i:13;a:5:{i:0;s:59:"EXECUTE p_SetProgramacionSemana 1,23988,2016,15,0,NULL,NULL";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1460133912.087399959564208984375;i:4;a:2:{i:0;a:5:{s:4:"file";s:63:"C:\wamp\www\fimex\frontend\models\programacion\Programacion.php";s:4:"line";i:247;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:818;s:8:"function";s:22:"setProgramacionSemanal";s:5:"class";s:41:"frontend\models\programacion\Programacion";s:4:"type";s:2:"->";}}}i:14;a:5:{i:0;s:59:"EXECUTE p_SetProgramacionSemana 1,23988,2016,15,0,NULL,NULL";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1460133912.279696941375732421875;i:4;a:2:{i:0;a:5:{s:4:"file";s:63:"C:\wamp\www\fimex\frontend\models\programacion\Programacion.php";s:4:"line";i:247;s:8:"function";s:7:"execute";s:5:"class";s:14:"yii\db\Command";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:818;s:8:"function";s:22:"setProgramacionSemanal";s:5:"class";s:41:"frontend\models\programacion\Programacion";s:4:"type";s:2:"->";}}}i:17;a:5:{i:0;s:36:"SELECT * FROM [user] WHERE [id]=1014";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3018300533294677734375;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:18;a:5:{i:0;s:36:"SELECT * FROM [user] WHERE [id]=1014";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.302628040313720703125;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:20;a:5:{i:0;s:384:"SELECT
+    [kcu].[column_name] AS [field_name]
+FROM [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu]
+LEFT JOIN [INFORMATION_SCHEMA].[TABLE_CONSTRAINTS] AS [tc] ON
+    [kcu].[table_name] = [tc].[table_name] AND
+    [kcu].[constraint_name] = [tc].[constraint_name]
+WHERE
+    [tc].[constraint_type] = 'PRIMARY KEY' AND
+    [kcu].[table_name] = 'user' AND
+    [kcu].[table_schema] = 'dbo'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3057210445404052734375;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:21;a:5:{i:0;s:384:"SELECT
+    [kcu].[column_name] AS [field_name]
+FROM [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu]
+LEFT JOIN [INFORMATION_SCHEMA].[TABLE_CONSTRAINTS] AS [tc] ON
+    [kcu].[table_name] = [tc].[table_name] AND
+    [kcu].[constraint_name] = [tc].[constraint_name]
+WHERE
+    [tc].[constraint_type] = 'PRIMARY KEY' AND
+    [kcu].[table_name] = 'user' AND
+    [kcu].[table_schema] = 'dbo'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3091399669647216796875;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:23;a:5:{i:0;s:723:"SELECT
+    [t1].[column_name], [t1].[is_nullable], [t1].[data_type], [t1].[column_default],
+    COLUMNPROPERTY(OBJECT_ID([t1].[table_schema] + '.' + [t1].[table_name]), [t1].[column_name], 'IsIdentity') AS is_identity,
+    CONVERT(VARCHAR, [t2].[value]) AS comment
+FROM [INFORMATION_SCHEMA].[COLUMNS] AS [t1]
+LEFT OUTER JOIN [sys].[extended_properties] AS [t2] ON
+    [t2].[minor_id] = COLUMNPROPERTY(OBJECT_ID([t1].[TABLE_SCHEMA] + '.' + [t1].[TABLE_NAME]), [t1].[COLUMN_NAME], 'ColumnID') AND
+    OBJECT_NAME([t2].[major_id]) = [t1].[table_name] AND
+    [t2].[class] = 1 AND
+    [t2].[class_desc] = 'OBJECT_OR_COLUMN' AND
+    [t2].[name] = 'MS_Description'
+WHERE [t1].[table_name] = 'user' AND [t1].[table_schema] = 'dbo'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3100140094757080078125;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:24;a:5:{i:0;s:723:"SELECT
+    [t1].[column_name], [t1].[is_nullable], [t1].[data_type], [t1].[column_default],
+    COLUMNPROPERTY(OBJECT_ID([t1].[table_schema] + '.' + [t1].[table_name]), [t1].[column_name], 'IsIdentity') AS is_identity,
+    CONVERT(VARCHAR, [t2].[value]) AS comment
+FROM [INFORMATION_SCHEMA].[COLUMNS] AS [t1]
+LEFT OUTER JOIN [sys].[extended_properties] AS [t2] ON
+    [t2].[minor_id] = COLUMNPROPERTY(OBJECT_ID([t1].[TABLE_SCHEMA] + '.' + [t1].[TABLE_NAME]), [t1].[COLUMN_NAME], 'ColumnID') AND
+    OBJECT_NAME([t2].[major_id]) = [t1].[table_name] AND
+    [t2].[class] = 1 AND
+    [t2].[class_desc] = 'OBJECT_OR_COLUMN' AND
+    [t2].[name] = 'MS_Description'
+WHERE [t1].[table_name] = 'user' AND [t1].[table_schema] = 'dbo'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3192050457000732421875;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:781:"SELECT
+    [kcu1].[column_name] AS [fk_column_name],
+    [kcu2].[table_name] AS [uq_table_name],
+    [kcu2].[column_name] AS [uq_column_name]
+FROM [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS] AS [rc]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu1] ON
+    [kcu1].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu1].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu1].[constraint_name] = [rc].[constraint_name]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu2] ON
+    [kcu2].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu2].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu2].[constraint_name] = [rc].[unique_constraint_name] AND
+    [kcu2].[ordinal_position] = [kcu1].[ordinal_position]
+WHERE [kcu1].[table_name] = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.323565959930419921875;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:27;a:5:{i:0;s:781:"SELECT
+    [kcu1].[column_name] AS [fk_column_name],
+    [kcu2].[table_name] AS [uq_table_name],
+    [kcu2].[column_name] AS [uq_column_name]
+FROM [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS] AS [rc]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu1] ON
+    [kcu1].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu1].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu1].[constraint_name] = [rc].[constraint_name]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu2] ON
+    [kcu2].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu2].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu2].[constraint_name] = [rc].[unique_constraint_name] AND
+    [kcu2].[ordinal_position] = [kcu1].[ordinal_position]
+WHERE [kcu1].[table_name] = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.392466068267822265625;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:47:"SELECT * FROM [Empleados] WHERE [IdEmpleado]=56";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3956120014190673828125;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:30;a:5:{i:0;s:47:"SELECT * FROM [Empleados] WHERE [IdEmpleado]=56";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3963069915771484375;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:32;a:5:{i:0;s:389:"SELECT
+    [kcu].[column_name] AS [field_name]
+FROM [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu]
+LEFT JOIN [INFORMATION_SCHEMA].[TABLE_CONSTRAINTS] AS [tc] ON
+    [kcu].[table_name] = [tc].[table_name] AND
+    [kcu].[constraint_name] = [tc].[constraint_name]
+WHERE
+    [tc].[constraint_type] = 'PRIMARY KEY' AND
+    [kcu].[table_name] = 'Empleados' AND
+    [kcu].[table_schema] = 'dbo'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.3972361087799072265625;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:33;a:5:{i:0;s:389:"SELECT
+    [kcu].[column_name] AS [field_name]
+FROM [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu]
+LEFT JOIN [INFORMATION_SCHEMA].[TABLE_CONSTRAINTS] AS [tc] ON
+    [kcu].[table_name] = [tc].[table_name] AND
+    [kcu].[constraint_name] = [tc].[constraint_name]
+WHERE
+    [tc].[constraint_type] = 'PRIMARY KEY' AND
+    [kcu].[table_name] = 'Empleados' AND
+    [kcu].[table_schema] = 'dbo'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.400516033172607421875;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:35;a:5:{i:0;s:728:"SELECT
+    [t1].[column_name], [t1].[is_nullable], [t1].[data_type], [t1].[column_default],
+    COLUMNPROPERTY(OBJECT_ID([t1].[table_schema] + '.' + [t1].[table_name]), [t1].[column_name], 'IsIdentity') AS is_identity,
+    CONVERT(VARCHAR, [t2].[value]) AS comment
+FROM [INFORMATION_SCHEMA].[COLUMNS] AS [t1]
+LEFT OUTER JOIN [sys].[extended_properties] AS [t2] ON
+    [t2].[minor_id] = COLUMNPROPERTY(OBJECT_ID([t1].[TABLE_SCHEMA] + '.' + [t1].[TABLE_NAME]), [t1].[COLUMN_NAME], 'ColumnID') AND
+    OBJECT_NAME([t2].[major_id]) = [t1].[table_name] AND
+    [t2].[class] = 1 AND
+    [t2].[class_desc] = 'OBJECT_OR_COLUMN' AND
+    [t2].[name] = 'MS_Description'
+WHERE [t1].[table_name] = 'Empleados' AND [t1].[table_schema] = 'dbo'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.401257991790771484375;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:36;a:5:{i:0;s:728:"SELECT
+    [t1].[column_name], [t1].[is_nullable], [t1].[data_type], [t1].[column_default],
+    COLUMNPROPERTY(OBJECT_ID([t1].[table_schema] + '.' + [t1].[table_name]), [t1].[column_name], 'IsIdentity') AS is_identity,
+    CONVERT(VARCHAR, [t2].[value]) AS comment
+FROM [INFORMATION_SCHEMA].[COLUMNS] AS [t1]
+LEFT OUTER JOIN [sys].[extended_properties] AS [t2] ON
+    [t2].[minor_id] = COLUMNPROPERTY(OBJECT_ID([t1].[TABLE_SCHEMA] + '.' + [t1].[TABLE_NAME]), [t1].[COLUMN_NAME], 'ColumnID') AND
+    OBJECT_NAME([t2].[major_id]) = [t1].[table_name] AND
+    [t2].[class] = 1 AND
+    [t2].[class_desc] = 'OBJECT_OR_COLUMN' AND
+    [t2].[name] = 'MS_Description'
+WHERE [t1].[table_name] = 'Empleados' AND [t1].[table_schema] = 'dbo'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.408070087432861328125;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:38;a:5:{i:0;s:786:"SELECT
+    [kcu1].[column_name] AS [fk_column_name],
+    [kcu2].[table_name] AS [uq_table_name],
+    [kcu2].[column_name] AS [uq_column_name]
+FROM [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS] AS [rc]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu1] ON
+    [kcu1].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu1].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu1].[constraint_name] = [rc].[constraint_name]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu2] ON
+    [kcu2].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu2].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu2].[constraint_name] = [rc].[unique_constraint_name] AND
+    [kcu2].[ordinal_position] = [kcu1].[ordinal_position]
+WHERE [kcu1].[table_name] = 'Empleados'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.41117095947265625;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:39;a:5:{i:0;s:786:"SELECT
+    [kcu1].[column_name] AS [fk_column_name],
+    [kcu2].[table_name] AS [uq_table_name],
+    [kcu2].[column_name] AS [uq_column_name]
+FROM [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS] AS [rc]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu1] ON
+    [kcu1].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu1].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu1].[constraint_name] = [rc].[constraint_name]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu2] ON
+    [kcu2].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu2].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu2].[constraint_name] = [rc].[unique_constraint_name] AND
+    [kcu2].[ordinal_position] = [kcu1].[ordinal_position]
+WHERE [kcu1].[table_name] = 'Empleados'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.5237720012664794921875;i:4;a:3:{i:0;a:5:{s:4:"file";s:40:"C:\wamp\www\fimex\common\models\User.php";s:4:"line";i:72;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:833;s:8:"function";s:5:"__get";s:5:"class";s:18:"yii\base\Component";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:41;a:5:{i:0;s:388:"SELECT
+    [kcu].[column_name] AS [field_name]
+FROM [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu]
+LEFT JOIN [INFORMATION_SCHEMA].[TABLE_CONSTRAINTS] AS [tc] ON
+    [kcu].[table_name] = [tc].[table_name] AND
+    [kcu].[constraint_name] = [tc].[constraint_name]
+WHERE
+    [tc].[constraint_type] = 'PRIMARY KEY' AND
+    [kcu].[table_name] = 'Bitacora' AND
+    [kcu].[table_schema] = 'dbo'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.548954010009765625;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:838;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:42;a:5:{i:0;s:388:"SELECT
+    [kcu].[column_name] AS [field_name]
+FROM [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu]
+LEFT JOIN [INFORMATION_SCHEMA].[TABLE_CONSTRAINTS] AS [tc] ON
+    [kcu].[table_name] = [tc].[table_name] AND
+    [kcu].[constraint_name] = [tc].[constraint_name]
+WHERE
+    [tc].[constraint_type] = 'PRIMARY KEY' AND
+    [kcu].[table_name] = 'Bitacora' AND
+    [kcu].[table_schema] = 'dbo'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.5521519184112548828125;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:838;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:44;a:5:{i:0;s:727:"SELECT
+    [t1].[column_name], [t1].[is_nullable], [t1].[data_type], [t1].[column_default],
+    COLUMNPROPERTY(OBJECT_ID([t1].[table_schema] + '.' + [t1].[table_name]), [t1].[column_name], 'IsIdentity') AS is_identity,
+    CONVERT(VARCHAR, [t2].[value]) AS comment
+FROM [INFORMATION_SCHEMA].[COLUMNS] AS [t1]
+LEFT OUTER JOIN [sys].[extended_properties] AS [t2] ON
+    [t2].[minor_id] = COLUMNPROPERTY(OBJECT_ID([t1].[TABLE_SCHEMA] + '.' + [t1].[TABLE_NAME]), [t1].[COLUMN_NAME], 'ColumnID') AND
+    OBJECT_NAME([t2].[major_id]) = [t1].[table_name] AND
+    [t2].[class] = 1 AND
+    [t2].[class_desc] = 'OBJECT_OR_COLUMN' AND
+    [t2].[name] = 'MS_Description'
+WHERE [t1].[table_name] = 'Bitacora' AND [t1].[table_schema] = 'dbo'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.5528481006622314453125;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:838;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:45;a:5:{i:0;s:727:"SELECT
+    [t1].[column_name], [t1].[is_nullable], [t1].[data_type], [t1].[column_default],
+    COLUMNPROPERTY(OBJECT_ID([t1].[table_schema] + '.' + [t1].[table_name]), [t1].[column_name], 'IsIdentity') AS is_identity,
+    CONVERT(VARCHAR, [t2].[value]) AS comment
+FROM [INFORMATION_SCHEMA].[COLUMNS] AS [t1]
+LEFT OUTER JOIN [sys].[extended_properties] AS [t2] ON
+    [t2].[minor_id] = COLUMNPROPERTY(OBJECT_ID([t1].[TABLE_SCHEMA] + '.' + [t1].[TABLE_NAME]), [t1].[COLUMN_NAME], 'ColumnID') AND
+    OBJECT_NAME([t2].[major_id]) = [t1].[table_name] AND
+    [t2].[class] = 1 AND
+    [t2].[class_desc] = 'OBJECT_OR_COLUMN' AND
+    [t2].[name] = 'MS_Description'
+WHERE [t1].[table_name] = 'Bitacora' AND [t1].[table_schema] = 'dbo'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.55786800384521484375;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:838;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:47;a:5:{i:0;s:785:"SELECT
+    [kcu1].[column_name] AS [fk_column_name],
+    [kcu2].[table_name] AS [uq_table_name],
+    [kcu2].[column_name] AS [uq_column_name]
+FROM [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS] AS [rc]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu1] ON
+    [kcu1].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu1].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu1].[constraint_name] = [rc].[constraint_name]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu2] ON
+    [kcu2].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu2].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu2].[constraint_name] = [rc].[unique_constraint_name] AND
+    [kcu2].[ordinal_position] = [kcu1].[ordinal_position]
+WHERE [kcu1].[table_name] = 'Bitacora'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.5594980716705322265625;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:838;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:48;a:5:{i:0;s:785:"SELECT
+    [kcu1].[column_name] AS [fk_column_name],
+    [kcu2].[table_name] AS [uq_table_name],
+    [kcu2].[column_name] AS [uq_column_name]
+FROM [INFORMATION_SCHEMA].[REFERENTIAL_CONSTRAINTS] AS [rc]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu1] ON
+    [kcu1].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu1].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu1].[constraint_name] = [rc].[constraint_name]
+JOIN [INFORMATION_SCHEMA].[KEY_COLUMN_USAGE] AS [kcu2] ON
+    [kcu2].[constraint_catalog] = [rc].[constraint_catalog] AND
+    [kcu2].[constraint_schema] = [rc].[constraint_schema] AND
+    [kcu2].[constraint_name] = [rc].[unique_constraint_name] AND
+    [kcu2].[ordinal_position] = [kcu1].[ordinal_position]
+WHERE [kcu1].[table_name] = 'Bitacora'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1460133912.6601619720458984375;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:838;s:8:"function";s:4:"load";s:5:"class";s:14:"yii\base\Model";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:50;a:5:{i:0;s:263:"INSERT INTO [Bitacora] ([Descripcion], [Tabla], [Campo], [ValorNuevo], [ValorAnterior], [IP], [IdUsuario]) VALUES ('Programacion Actualizada Producto: A1D1-9118-010-37A-0 Año: 2016, Semana: 15', 'ProgramacionSemanal', 'Programadas', 'NULL', '', '::1', 'amolina')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1460133912.6629130840301513671875;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:839;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:51;a:5:{i:0;s:263:"INSERT INTO [Bitacora] ([Descripcion], [Tabla], [Campo], [ValorNuevo], [ValorAnterior], [IP], [IdUsuario]) VALUES ('Programacion Actualizada Producto: A1D1-9118-010-37A-0 Año: 2016, Semana: 15', 'ProgramacionSemanal', 'Programadas', 'NULL', '', '::1', 'amolina')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1460133912.7030150890350341796875;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:839;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:819;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:53;a:5:{i:0;s:258:"INSERT INTO [Bitacora] ([Descripcion], [Tabla], [Campo], [ValorNuevo], [ValorAnterior], [IP], [IdUsuario]) VALUES ('Programacion Actualizada Producto: A1D1-9118-010-37A-0 Año: 2016, Semana: 15', 'ProgramacionSemanal', 'Prioridad', '0', '', '::1', 'amolina')";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1460133912.7086849212646484375;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:839;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:820;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}i:54;a:5:{i:0;s:258:"INSERT INTO [Bitacora] ([Descripcion], [Tabla], [Campo], [ValorNuevo], [ValorAnterior], [IP], [IdUsuario]) VALUES ('Programacion Actualizada Producto: A1D1-9118-010-37A-0 Año: 2016, Semana: 15', 'ProgramacionSemanal', 'Prioridad', '0', '', '::1', 'amolina')";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1460133912.7373011112213134765625;i:4;a:2:{i:0;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:839;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:65:"C:\wamp\www\fimex\frontend\controllers\ProgramacionController.php";s:4:"line";i:820;s:8:"function";s:11:"SetBitacora";s:5:"class";s:43:"frontend\controllers\ProgramacionController";s:4:"type";s:2:"->";}}}}}s:6:"assets";a:0:{}s:4:"mail";a:0:{}s:7:"summary";a:9:{s:3:"tag";s:13:"5707e0180bc44";s:3:"url";s:155:"http://localhost/fimex/programacion/save-semanal?Anio=2016&IdProceso=1&IdProgramacion=23988&Prioridad=0&Producto=A1D1-9118-010-37A-0&Programadas=&Semana=15";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:3:"::1";s:4:"time";i:1460133912;s:10:"statusCode";i:200;s:8:"sqlCount";i:14;s:9:"mailCount";i:0;}}

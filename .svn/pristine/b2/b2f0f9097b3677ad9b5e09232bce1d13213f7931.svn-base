@@ -1,0 +1,963 @@
+2014-11-06 19:21:08 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('sqlsrv:Server=1...', 'sa', 'Fimex123', NULL)
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#13 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#15 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#21 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#22 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#23 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#24 {main}
+
+Next exception 'yii\db\Exception' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#22 {main}
+Additional Information:
+
+2014-11-06 19:21:08 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC005'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Idesantiago'
+    'LOCALAPPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC005'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files\\Microsoft SQL Server\\80\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\wamp\\bin\\php\\php5.4.3;C:\\wamp\\bin\\zend\\ZendFramework-1.12.9\\bin;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\PowerShell\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC005'
+    'USERNAME' => 'Idesantiago'
+    'USERPROFILE' => 'C:\\Users\\Idesantiago'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'C:\\wamp\\www\\yii2\\'
+    'ZEND_TOOL_INCLUDE_PATH' => 'C:\\wamp\\www\\library'
+    'PHP_SELF' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\yii2\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1415301668.2323
+    'REQUEST_TIME' => 1415301668
+    'argv' => [
+        0 => 'C:\\wamp\\www\\yii2\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2014-11-06 19:21:32 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('sqlsrv:Server=1...', 'sa', 'Fimex123', NULL)
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#13 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#15 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#21 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#22 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#23 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#24 {main}
+
+Next exception 'yii\db\Exception' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#22 {main}
+Additional Information:
+
+2014-11-06 19:21:32 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC005'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Idesantiago'
+    'LOCALAPPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC005'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files\\Microsoft SQL Server\\80\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\wamp\\bin\\php\\php5.4.3;C:\\wamp\\bin\\zend\\ZendFramework-1.12.9\\bin;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\PowerShell\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC005'
+    'USERNAME' => 'Idesantiago'
+    'USERPROFILE' => 'C:\\Users\\Idesantiago'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'C:\\wamp\\www\\yii2\\'
+    'ZEND_TOOL_INCLUDE_PATH' => 'C:\\wamp\\www\\library'
+    'PHP_SELF' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\yii2\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1415301692.3537
+    'REQUEST_TIME' => 1415301692
+    'argv' => [
+        0 => 'C:\\wamp\\www\\yii2\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2014-11-06 20:25:01 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('sqlsrv:Server=1...', 'sa', 'Fimex123', NULL)
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#13 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#15 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#21 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#22 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#23 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#24 {main}
+
+Next exception 'yii\db\Exception' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#22 {main}
+Additional Information:
+
+2014-11-06 20:25:01 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC005'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Idesantiago'
+    'LOCALAPPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC005'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files\\Microsoft SQL Server\\80\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\wamp\\bin\\php\\php5.4.3;C:\\wamp\\bin\\zend\\ZendFramework-1.12.9\\bin;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\PowerShell\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC005'
+    'USERNAME' => 'Idesantiago'
+    'USERPROFILE' => 'C:\\Users\\Idesantiago'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'C:\\wamp\\www\\yii2\\'
+    'ZEND_TOOL_INCLUDE_PATH' => 'C:\\wamp\\www\\library'
+    'PHP_SELF' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\yii2\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1415305501.4146
+    'REQUEST_TIME' => 1415305501
+    'argv' => [
+        0 => 'C:\\wamp\\www\\yii2\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2014-11-06 20:32:07 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('sqlsrv:Server=1...', 'sa', 'Fimex123', NULL)
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#13 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#15 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#21 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#22 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#23 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#24 {main}
+
+Next exception 'yii\db\Exception' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#22 {main}
+Additional Information:
+
+2014-11-06 20:32:07 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC005'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Idesantiago'
+    'LOCALAPPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC005'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files\\Microsoft SQL Server\\80\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\wamp\\bin\\php\\php5.4.3;C:\\wamp\\bin\\zend\\ZendFramework-1.12.9\\bin;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\PowerShell\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC005'
+    'USERNAME' => 'Idesantiago'
+    'USERPROFILE' => 'C:\\Users\\Idesantiago'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'C:\\wamp\\www\\yii2\\'
+    'ZEND_TOOL_INCLUDE_PATH' => 'C:\\wamp\\www\\library'
+    'PHP_SELF' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\yii2\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1415305927.383
+    'REQUEST_TIME' => 1415305927
+    'argv' => [
+        0 => 'C:\\wamp\\www\\yii2\\yii'
+        1 => 'migrate'
+        2 => 'up'
+        3 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 4
+]
+2014-11-06 21:51:54 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('sqlsrv:Server=1...', 'sa', 'Fimex123', NULL)
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#13 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#15 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#21 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#22 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#23 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#24 {main}
+
+Next exception 'yii\db\Exception' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#22 {main}
+Additional Information:
+
+2014-11-06 21:51:54 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC005'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Idesantiago'
+    'LOCALAPPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC005'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files\\Microsoft SQL Server\\80\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\wamp\\bin\\php\\php5.4.3;C:\\wamp\\bin\\zend\\ZendFramework-1.12.9\\bin;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\PowerShell\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC005'
+    'USERNAME' => 'Idesantiago'
+    'USERPROFILE' => 'C:\\Users\\Idesantiago'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'C:\\wamp\\www\\yii2\\'
+    'ZEND_TOOL_INCLUDE_PATH' => 'C:\\wamp\\www\\library'
+    'PHP_SELF' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\yii2\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1415310714.6108
+    'REQUEST_TIME' => 1415310714
+    'argv' => [
+        0 => 'C:\\wamp\\www\\yii2\\yii'
+        1 => 'migrate'
+        2 => 'up'
+    ]
+    'argc' => 3
+]
+2014-11-06 22:01:11 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('sqlsrv:Server=1...', 'sa', 'Fimex123', NULL)
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#13 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#15 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#21 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#22 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#23 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#24 {main}
+
+Next exception 'yii\db\Exception' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#22 {main}
+Additional Information:
+
+2014-11-06 22:01:11 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC005'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Idesantiago'
+    'LOCALAPPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC005'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files\\Microsoft SQL Server\\80\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\wamp\\bin\\php\\php5.4.3;C:\\wamp\\bin\\zend\\ZendFramework-1.12.9\\bin;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\PowerShell\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC005'
+    'USERNAME' => 'Idesantiago'
+    'USERPROFILE' => 'C:\\Users\\Idesantiago'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'C:\\wamp\\www\\yii2\\'
+    'ZEND_TOOL_INCLUDE_PATH' => 'C:\\wamp\\www\\library'
+    'PHP_SELF' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\yii2\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1415311271.5186
+    'REQUEST_TIME' => 1415311271
+    'argv' => [
+        0 => 'C:\\wamp\\www\\yii2\\yii'
+        1 => 'migrate'
+        2 => 'up'
+    ]
+    'argc' => 3
+]
+2014-11-06 22:02:50 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mssql:Server=19...', 'sa', 'Fimex123', NULL)
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#13 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#15 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#21 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#22 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#23 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#24 {main}
+
+Next exception 'yii\db\Exception' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#22 {main}
+Additional Information:
+
+2014-11-06 22:02:50 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC005'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Idesantiago'
+    'LOCALAPPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC005'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files\\Microsoft SQL Server\\80\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\wamp\\bin\\php\\php5.4.3;C:\\wamp\\bin\\zend\\ZendFramework-1.12.9\\bin;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\PowerShell\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC005'
+    'USERNAME' => 'Idesantiago'
+    'USERPROFILE' => 'C:\\Users\\Idesantiago'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'C:\\wamp\\www\\yii2\\'
+    'ZEND_TOOL_INCLUDE_PATH' => 'C:\\wamp\\www\\library'
+    'PHP_SELF' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\yii2\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1415311370.9643
+    'REQUEST_TIME' => 1415311370
+    'argv' => [
+        0 => 'C:\\wamp\\www\\yii2\\yii'
+        1 => 'migrate'
+        2 => 'up'
+    ]
+    'argc' => 3
+]
+2014-11-06 22:03:21 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('sqlsrv:Server=1...', 'sa', 'Fimex123', NULL)
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#13 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#15 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#21 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#22 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#23 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#24 {main}
+
+Next exception 'yii\db\Exception' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#22 {main}
+Additional Information:
+
+2014-11-06 22:03:21 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC005'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Idesantiago'
+    'LOCALAPPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC005'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files\\Microsoft SQL Server\\80\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\wamp\\bin\\php\\php5.4.3;C:\\wamp\\bin\\zend\\ZendFramework-1.12.9\\bin;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\PowerShell\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC005'
+    'USERNAME' => 'Idesantiago'
+    'USERPROFILE' => 'C:\\Users\\Idesantiago'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'C:\\wamp\\www\\yii2\\'
+    'ZEND_TOOL_INCLUDE_PATH' => 'C:\\wamp\\www\\library'
+    'PHP_SELF' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\yii2\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1415311401.6191
+    'REQUEST_TIME' => 1415311401
+    'argv' => [
+        0 => 'C:\\wamp\\www\\yii2\\yii'
+        1 => 'migrate'
+        2 => 'up'
+        3 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 4
+]
+2014-11-06 22:03:27 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('sqlsrv:Server=1...', 'sa', 'Fimex123', NULL)
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#13 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#15 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#21 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#22 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#23 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#24 {main}
+
+Next exception 'yii\db\Exception' with message 'could not find driver' in C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('migration')
+#4 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('migration')
+#5 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(790): yii\db\Command->getRawSql()
+#6 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Command.php(393): yii\db\Command->queryInternal('fetchAll', 7)
+#7 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(314): yii\db\Command->queryColumn()
+#8 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\mssql\Schema.php(135): yii\db\mssql\Schema->findPrimaryKeys(Object(yii\db\mssql\TableSchema))
+#9 C:\wamp\www\yii2\vendor\yiisoft\yii2\db\Schema.php(139): yii\db\mssql\Schema->loadTableSchema('migration')
+#10 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\MigrateController.php(125): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(606): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(99): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#14 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Controller.php(91): yii\base\Controller->runAction('', Array)
+#17 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Module.php(455): yii\console\Controller->runAction('', Array)
+#18 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(161): yii\base\Module->runAction('migrate', Array)
+#19 C:\wamp\www\yii2\vendor\yiisoft\yii2\console\Application.php(137): yii\console\Application->runAction('migrate', Array)
+#20 C:\wamp\www\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 C:\wamp\www\yii2\yii(31): yii\base\Application->run()
+#22 {main}
+Additional Information:
+
+2014-11-06 22:03:27 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC005'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Idesantiago'
+    'LOCALAPPDATA' => 'C:\\Users\\Idesantiago\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC005'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files\\Microsoft\\Web Platform Installer\\;C:\\Program Files\\Microsoft SQL Server\\80\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;c:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\TortoiseSVN\\bin;C:\\wamp\\bin\\php\\php5.4.3;C:\\wamp\\bin\\zend\\ZendFramework-1.12.9\\bin;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\DTS\\Binn\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\ManagementStudio\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 42 Stepping 7, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '2a07'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;c:\\Program Files\\Microsoft SQL Server\\110\\Tools\\PowerShell\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\IDESAN~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC005'
+    'USERNAME' => 'Idesantiago'
+    'USERPROFILE' => 'C:\\Users\\Idesantiago'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'C:\\wamp\\www\\yii2\\'
+    'ZEND_TOOL_INCLUDE_PATH' => 'C:\\wamp\\www\\library'
+    'PHP_SELF' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\yii2\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\yii2\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1415311407.4344
+    'REQUEST_TIME' => 1415311407
+    'argv' => [
+        0 => 'C:\\wamp\\www\\yii2\\yii'
+        1 => 'migrate'
+        2 => 'up'
+    ]
+    'argc' => 3
+]
